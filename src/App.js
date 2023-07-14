@@ -25,7 +25,7 @@ const App = () => {
     };
 
     return (
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Header isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
             {/* <DarkModeToggle isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} /> */}
             <FetchImage blogs={blogs} setBlogs={setBlogs} />

@@ -30,13 +30,13 @@ const App = () => {
             {/* <DarkModeToggle isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} /> */}
             <FetchImage blogs={blogs} setBlogs={setBlogs} />
             <Routes>
-                <Route path="/" element={<CategoryAndTags blogs={blogs} isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />} />
-                <Route
+                <Route exact path="/" element={<CategoryAndTags blogs={blogs} isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />} />
+                <Route exact
                     path="/add"
                     element={<AddBlogForm blogs={blogs} handleAddBlog={handleAddBlog} isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />}
                 />
                 <Route
-                    path="/blog/:id"
+                    exact path="/blog/:id"
                     element={<BlogDetailsPage blogs={blogs} isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />}
                 />
             </Routes>

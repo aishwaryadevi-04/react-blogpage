@@ -1,0 +1,25 @@
+
+/* Custom styles */
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.light-mode {
+  background-color: #fff;
+  color: #333;
+}
+
+.dark.dark-mode-toggle {
+  padding: 8px;
+  background-color: #555;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.light.dark-mode-toggle {
+  background-color: #fff;
+  color: #333;
+}

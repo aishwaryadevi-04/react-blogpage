@@ -1,0 +1,116 @@
+.blog-details {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .blog-details__title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .blog-details__image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .blog-details__description {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .blog-details__tags {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .blog-details__tags li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 14px;
+    background-color: #e0e0e0;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .blog-details__comment-form {
+    margin-bottom: 20px;
+  }
+  
+  .blog-details__comment-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #1e1a1a;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .blog-details__comment-submit {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .blog-details__comments {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .blog-details__comments li {
+    margin-bottom: 10px;
+  }
+  .blog-details__comment {
+    margin-bottom: 10px;
+  }
+  
+  .blog-details__comment-box {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+  
+  .blog-details__comment-content {
+    margin-bottom: 5px;
+  }
+  
+  .blog-details__comment-time {
+    font-size: 12px;
+    color: #171414;
+  }
+  .dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .light-mode {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .dark-mode-toggle {
+    padding: 8px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .light-mode .dark-mode-toggle {
+    color: #f5f5f5;
+    background-color: blue
+  }
+  
+  .dark-mode-text {
+    color: black;
+  }
+  

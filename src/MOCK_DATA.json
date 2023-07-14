@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "title": "Top 10 Tips for Technology Enthusiasts",
+      "body": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.\n\nInteger tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.\n\nPraesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.\n\nMorbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
+      "date": "9/27/2022",
+      "likes": 1,
+      "author": "Zeke L'Homme",
+      "category": "Technology",
+      "tags": ["tips", "Enthusiasts", "technology"]
+    },
+    {
+      "id": 2,
+      "title": "Top 5 Sports Events of the Year",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu justo sit amet lacus tempus fringilla vitae sed turpis. Proin eget velit eu est volutpat tempor. Nulla non urna sapien. In hac habitasse platea dictumst.",
+      "date": "10/15/2022",
+      "likes": 3,
+      "author": "Olivia Johnson",
+      "category": "Sports",
+      "tags": ["sports", "events", "year"]
+    },
+    {
+      "id": 3,
+      "title": "Latest Entertainment News: Movie Releases and Celeb Gossip",
+      "body": "Sed vel rutrum sapien. Curabitur feugiat metus eget elit varius, et rutrum mauris condimentum. Nullam ac leo arcu. Duis sollicitudin eu odio vel dapibus. Aliquam scelerisque, massa a semper euismod, nunc metus scelerisque sem, vel fermentum lacus lectus ut quam.",
+      "date": "11/5/2022",
+      "likes": 7,
+      "author": "Emma Thompson",
+      "category": "Entertainment",
+      "tags": ["entertainment", "movies", "celebrities"]
+    },
+    {
+      "id": 4,
+      "title": "10 Must-Try Recipes for Food Lovers",
+      "body": "Aenean eu metus sit amet neque ullamcorper imperdiet nec a nibh. Nullam sed ipsum ac orci rhoncus dapibus. Suspendisse potenti. Fusce a mauris in nunc fringilla accumsan. Aliquam dapibus, arcu et scelerisque eleifend, arcu tortor lobortis purus, ac posuere nisi diam at purus.",
+      "date": "12/20/2022",
+      "likes": 5,
+      "author": "Sophia Martinez",
+      "category": "Food",
+      "tags": ["recipes", "food", "cooking"]
+    },
+    {
+      "id": 5,
+      "title": "How to Manage Your Finances: Expert Tips",
+      "body": "Vivamus sed mi ut tellus fermentum hendrerit a ut lacus. Integer quis sem eu nunc luctus congue. Donec gravida urna eget lacus semper posuere. Vestibulum mattis risus ut nulla lacinia, eu efficitur tellus facilisis.",
+      "date": "1/8/2023",
+      "likes": 2,
+      "author": "Alexander Johnson",
+      "category": "Finance",
+      "tags": ["finances", "money", "tips"]
+    },
+    {
+      "id": 6,
+      "title": "Education Trends: Innovations in Learning",
+      "body": "Pellentesque finibus purus a risus bibendum lacinia. Ut eu arcu nec lectus faucibus commodo. Sed elementum est ut libero ullamcorper, a sollicitudin sem feugiat. Integer fermentum, purus at vulputate finibus, metus risus congue massa, ut iaculis nisl lectus ut mauris.",
+      "date": "2/17/2023",
+      "likes": 4,
+      "author": "Sophie Anderson",
+      "category": "Education",
+      "tags": ["education", "learning", "trends"]
+    }
+  ]
+  

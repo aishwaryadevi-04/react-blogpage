@@ -2,7 +2,7 @@
 
 
 import React, { useState } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route ,Redirect} from 'react-router-dom';
 import Header from './components/header';
 import FetchImage from './components/home/fetchimage';
 import CategoryAndTags from './components/categoryandtags/category';
@@ -10,7 +10,7 @@ import AddBlogForm from './components/addblog/addblog';
 import blogData from './MOCK_DATA.json';
 import BlogDetailsPage from './components/blogdetails/blog';
 import DarkModeToggle from './darkmode/darkmode';
-
+import { Navigate } from "react-router-dom";
 const App = () => {
     const [blogs, setBlogs] = useState(blogData);
     const [isDarkMode, setIsDarkMode] = useState(false);
@@ -30,7 +30,8 @@ const App = () => {
             {/* <DarkModeToggle isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} /> */}
             <FetchImage blogs={blogs} setBlogs={setBlogs} />
             <Routes>
-                <Route exact path="/" element={<CategoryAndTags blogs={blogs} isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />} />
+            <Route path="/" element={<Navigate replace to="/home" />} />
+                <Route exact path="/home" element={<CategoryAndTags blogs={blogs} isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />} />
                 <Route exact
                     path="/add"
                     element={<AddBlogForm blogs={blogs} handleAddBlog={handleAddBlog} isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />}
